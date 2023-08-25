@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+/* HEADER  */
+.header-container{
+    background-color: #ffc265;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #c38154;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1px 25px 1px #91513eaf;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+.header-logo img{
+    width: 60%;
+    height: 90%;
+}
+.header-menu{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+.header-menu ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    list-style-type: none;
+}
+.header-menu ul>li{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    padding: 0 10px;
+    margin:0 20px;
+}
+.header-menu ul li a{
+    color:#884a39;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Charm', cursive;
+}
+
+/* MAIN */
+.main-container{
+    width: 100%;
+    padding-top:75px ;
+    height: 89vh;
+    background-image: url("../img/background.png");
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.main{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .heading{
+    font-size: 5rem;
+    font-family: 'Satisfy', cursive;
+    color: #49271d;
+}
+
+.main .subheading{
+    font-size: 1.5rem;
+    font-family: 'Charm', cursive;
+    font-weight: 600;
+    text-align: center;
+    color:#884a39;
+}
+.main img{
+    width: 110%;
+    height: 120%;
+}
+
+/* MENU*/
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:1200px;
+    background-color: #f3c48e;
+    justify-content: space-around;
+}
+.menu-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: 'Luxurious Script', cursive;
+    color: #49271d;
+}
+.menu-row{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:25%;   
+    justify-content: space-evenly;
+}
+.box{
+    width:35%;
+    padding:25px;
+    border: 1px solid #c38154;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    font-family: 'Charm', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #884a39;
+    background-color: #ffc265;
+    border-radius: 30px;
+    box-shadow:1px 1px 10px 3px #311a13;
+  
+}
+.box p{
+    text-align: center;
+}
+.box-text{
+    display: flex;
+    flex-direction: column;
+  
+}
+.box-text span{
+    font-size: 1.5rem;
+    font-weight:500;
+    font-family: 'vollkorn';
+    text-align: left;
+}
+.box img{
+    width:275px;
+    height:260px;
+    border-radius: 10%;
+    margin-right:20px;
+}
+.box img:hover{
+    box-shadow:1px 1px 7px 1px #311a13;
+    
+}
+.box p:hover{
+    transform: scale(1.25);
+}
+
+
+/* ORDER */
+.order-container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd7a9;
+}
+
+.content{
+    font-family: 'Charm', cursive;
+    font-size: 2.5rem;
+}
+
+.content-span{
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
+}
+
+.order-button{
+    margin-top: 3rem;
+}
+
+.order-button a {
+    background: #ff9d57;
+    background-image: linear-gradient(to bottom, #ff9d57, #7a3904);
+    border-radius: 28px;
+    box-shadow: 4px 4px 7px #666666;
+    font-family: 'Charm', cursive;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 10px 20px 10px 20px;
+    border: solid #5e3902 1px;
+    text-decoration: none;
+  }
+  
+  .order-button a:hover {
+    background: #fca956;
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Satisfy', cursive;
+  }
+
+/* FOOTER */
+.footer-container{
+    height: 300px;
+    background-color:#f3c48e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-flex{
+    padding: 3rem 0;
+    width: 100%;
+    height: 50%;
+    color: #49271d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-flex h2{
+    margin:12px 0;
+}
+
+.footer-flex p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin:5px 0;
+}
+
+.footer-flex div{
+    width: 25%;
+    margin:30px;
+}
+
+.footer-logo img{
+    width: 60%;
+    height: 70%;
+}
+
+.footer-end{
+    display: flex;
+    color: #884a39;
+    align-items: center;
+    margin:15px auto;
+}

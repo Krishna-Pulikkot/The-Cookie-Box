@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Charm&family=Luxurious+Script&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Cookie Box</title>
+  <style>
+    *{
+        padding: 0;
+        margin:0;
+    }
+    
+    .order-body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../img/cookie-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .order{
+        font-family: 'Charm', cursive;
+        font-size: 5rem;
+        color: #fff;
+    }
+    .order-para{
+        font-family: 'Charm', cursive;
+        font-size: 2rem;
+        color: #fff;
+    }
+    .home-button{
+        margin-top: 30px;
+        width: 10rem;
+        height: 3rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: #000;
+        cursor: pointer;
+    }
+    .home-link{
+        text-decoration: none;
+        color: #000;
+    }
+    .home-link:hover{
+        transform: scale(1.1);
+        font-weight: bold;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="order-container">
+    <div class="order-body">
+        <p class="order">Thanks for Ordering !!</p><br/>
+        <p class="order-para">Your Order will be delivered in 30 minutes.</p>
+        <div class="home-button"><a class='home-link' href="./index.html"><i class="fa fa-home">Home</i></a></div>
+    </div>
+</div>
+</body>
+</html>
